@@ -14,7 +14,7 @@ document.querySelector('#btnToClick').addEventListener('click',()=>{
 });
 
 ////////
-document.querySelector('.focus').addEventListener('focus',()=>{
+document.querySelector('.focus').addEventListener('keyup',()=>{
     console.log('escriba su nombre');
 });
 
